@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#008080">
+    <meta name="description" content="kian">
+    <meta name="author" content="kian">
+    <link rel="icon" href="/static/kian.ico">
+    <title>kian</title>
+	
+	<!-- Styles for this template -->
+	<link href="/static/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/static/css/buttons.css" rel="stylesheet">
+	<link href="/static/css/custom.css" rel="stylesheet">
+
+	<!-- JavaScript for this template -->
+	<script src="/static/js/jquery.min.js"></script>
+  	<script src="/static/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+  
+<!----------导航---------->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+       <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="">喵</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-left">
+            <li><a href="music">音乐</a></li>
+			<li><a href="#app">应用</a></li>
+			<li><a href="#news">资讯</a></li>
+            <li class="dropdown">
+                <a href="" class="dropdown-toggle" data-toggle="dropdown">友链<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+					<li><a href="https://kiwivm.64clouds.com/"><span ></span>面板</a></li>
+					<li><a href="http://www.bootcss.com/p/buttons/">按钮</a></li>
+					<li><a href="http://www.bootcdn.cn/">又拍云</a></li>
+					<li><a href="http://www.runoob.com">菜鸟教程</a></li>
+					<li><a href="http://amazeui.org">Amaze UI</a></li>
+					<li><a href="http://www.getuikit.net">Uikit中文网</a></li>
+					<li><a href="http://www.bootcss.com">Bootstrap中文网</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+			<li><a href="http://127.0.0.1/admin">管理</a></li>
+          </ul>
+
+        </div>	
+      </div>
+    </nav>
+<!----------导航---------->
+
+
+<!----------首页---------->
+	<div class="top">
+		<div class="container">
+				<div class="col-xs-12 col-md-6">
+					<div class="welcome">
+						<h3>Google Pixel</h3>
+						<p>
+							谷歌Pixel（Sailfish）将搭载骁龙820处理器，
+							内置4GB运存+32GB存储，配备前置800万+后置1300万像素摄像头，
+							运行Android 7.0操作系统，电池容量为2770mAh。
+						</p>
+						<h3>@Leonis_kian</h3>
+						<a href="http://weibo.com/u/2168912730"><img src="/static/img/weibo2.png"></a>
+						<h3>About This</h3>
+						<a href=""><button class="button button-glow button-border button-rounded button-action">Read More</button></a>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<div class="phone">
+						<img src="/static/img/phone.png" alt="">
+						<div class="lunbo">
+							<div id="myCarousel" class="carousel slide" data-ride="carousel">
+								<!-- 轮播（Carousel）指标 --
+								<ol class="carousel-indicators">
+									<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+									<li data-target="#myCarousel" data-slide-to="1"></li>
+									<li data-target="#myCarousel" data-slide-to="2"></li>
+								</ol>
+								<!-- 轮播（Carousel）项目 -->
+								<div class="carousel-inner" role="listbox">
+									<div class="item active"><img src="/static/img/phone1.jpg" alt="1"></div>
+									<div class="item"><img src="/static/img/phone2.jpg" alt="2"></div>
+									<div class="item"><img src="/static/img/phone3.jpg" alt="3"></div>
+									<div class="item"><img src="/static/img/phone4.jpg" alt="3"></div>
+								</div>
+								<!-- 轮播（Carousel）导航 -->
+								<a class="carousel-control left" href="#myCarousel" data-slide="prev"></a>
+								<a class="carousel-control right" href="#myCarousel" data-slide="next"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+<!----------首页---------->
+
+<!----------应用版块---------->
+	<div id="app" class="app">
+		<div class="container">
+			<h3>应用</h3>
+			<div class="row">
+					<div class="col-xs-3 col-md-2"><a href=""><img src="/static/img/MonumentValley.png" class="img-rounded"></a><div class="caption"><p>纪念碑谷</p></div></div>
+					<div class="col-xs-3 col-md-2"><a href=""><img src="/static/img/MonumentValley2.png" class="img-rounded"></a><div class="caption"><p>纪念碑谷2</p></div></div>
+					<div class="col-xs-3 col-md-2"><a href=""><img src="/static/img/Samorost3.png" class="img-rounded"></a><div class="caption"><p>银河历险记3</p></div></div>
+					<div class="col-xs-3 col-md-2"><a href=""><img src="/static/img/Botanicula.png" class="img-rounded"></a><div class="caption"><p>植物精灵</p></div></div>
+					<div class="col-xs-3 col-md-2"><a href=""><img src="/static/img/Machinarium.png" class="img-rounded"></a><div class="caption"><p>机械迷城</p></div></div>
+					<div class="col-xs-3 col-md-2"><a href=""><img src="/static/img/LIMBO.png" class="img-rounded"></a><div class="caption"><p>地狱边境</p></div></div>
+					
+			</div>
+			<hr/>
+		</div>
+	</div>
+<!----------应用板块---------->
+
+<!----------资讯版块---------->
+	<div id="news" class="news">
+		<div class="container">
+			<h3>资讯</h3>
+		</div>
+		<hr/>
+	</div>
+<!----------资讯板块---------->
+
+<!----------footer---------->
+<div class="container">
+	<footer class="footer">
+			<p>Copyright © 2017 kian All Rights Reserved</p>
+	</footer>
+</div>
+<!----------footer---------->
+
+  </body>
+</html>
